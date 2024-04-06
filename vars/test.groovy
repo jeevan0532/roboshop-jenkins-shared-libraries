@@ -1,4 +1,3 @@
 def new() {
  print "hello"
-
 }
