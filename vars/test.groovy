@@ -1,3 +1,3 @@
-def new() {
- print "hello"
+def hi() {
+    println("Hello World!")
 }
