@@ -1,4 +1,4 @@
 def hi() {
-    print "abc=${abc}"
+    print "${abc}"
     println("Hello World!")
 }
