@@ -1,9 +1,4 @@
-def abc = "hello"
+def new() {
+ print "hello"
 
-def xyz = 20
-
-print abc
-
-print "abc = ${abc}"
-print " xyz = ${xyz} "
-
+}
