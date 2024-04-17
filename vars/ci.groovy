@@ -31,7 +31,7 @@ def call()
         }
     }
    }
-  }catch(Exception e){
-  common.email("failed")
+  } catch(Exception e) {
+    common.email("failed")
   }
 }
