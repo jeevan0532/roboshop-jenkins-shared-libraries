@@ -9,11 +9,7 @@ def compile() {
 
 def unittest() {
  if (app_lang == "nodejs"){
-    try {
-      sh 'npm test'
-    }catch(Exception e){
-      email("unit test failed")
-    }
+     sh 'npm test'
  }
  if (app_lang == "java/maven"){
     sh 'mvn test'
@@ -24,5 +20,5 @@ def unittest() {
 }
 
 def email(email_note){
- println "(email_note)"
+ mail bcc: '', body: '', cc: '', from: 'jeev55534u@gmail.com', replyTo: '', subject: '', to: 'jeev55534u@gmail.com'
 }
