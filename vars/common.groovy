@@ -11,8 +11,7 @@ def test() {
  if (app_lang == "nodejs"){
     try{
       sh 'npm test'
-    }
-    catch(eception failed) {
+    } catch(eception failed) {
       email ("unit test failed")
     }
  }
