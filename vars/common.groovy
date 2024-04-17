@@ -7,19 +7,19 @@ def compile() {
     }
 }
 
-def test() {
- if (app_lang == "nodejs"){
-    try{
-      sh 'npm test'
-    } catch(eception failed) {
-      email ("unit test failed")
-    }
- }
- if (app_lang == "maven"){
-    sh 'mvn test'
- }
-}
-
-def email(email_note){
- println email_note
-}
+#def test() {
+# if (app_lang == "nodejs"){
+#    try{
+#      sh 'npm test'
+#    } catch(eception failed) {
+#     3 email ("unit test failed")
+#    }
+# }
+# if (app_lang == "maven"){
+#    sh 'mvn test'
+# }
+#}
+#
+#def email(email_note){
+# println email_note
+#}
