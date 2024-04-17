@@ -1,5 +1,5 @@
 def call() 
- try {
+try {
  pipeline {
   agent {
     label 'agent'
