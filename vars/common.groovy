@@ -5,6 +5,9 @@ def compile() {
  if (app_lang == "java/maven"){
     sh 'mvn package'
     }
+ if (app_lang == "python"){
+    sh 'compile()'
+ }
 }
 
 def unittest() {
