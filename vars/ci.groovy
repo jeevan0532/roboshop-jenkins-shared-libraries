@@ -30,8 +30,8 @@ try {
           echo 'upload'
         }
     }
-   }
-  } catch(Exception e) {
-    common.email("failed")
   }
+ } catch(Exception e) {
+     common.email("failed")
+   }
 }
